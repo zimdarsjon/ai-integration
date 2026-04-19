@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(dotnet swagger *)",
+      "Bash(dotnet tool *)",
+      "Bash(dotnet build *)",
+      "Bash(swagger tofile *)",
+      "Bash(awk NR>=5490 && NR<=5515 *)",
+      "Bash(npx openapi-typescript *)",
+      "Bash(npx vue-tsc *)",
+      "Bash(xargs grep *)",
+      "Bash(dotnet ef *)",
+      "Bash(npx tsc *)",
+      "Bash(xargs cat *)",
+      "Bash(dotnet run *)",
+      "Bash(curl -s http://localhost:5062/api/reference/classes)",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); druid=[c for c in data if c['name']=='Druid'][0]; print\\('Druid subclasses:', [s['name'] for s in druid.get\\('subclasses',[]\\)]\\); print\\('Druid features lv2:', [f['name'] for f in druid.get\\('features',[]\\) if f['level']==2]\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e ' *)",
+      "Bash(curl -sv http://localhost:5062/api/reference/classes)",
+      "Bash(echo \"Started PID $!\")",
+      "Bash(curl -sv http://localhost:5062/health)"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/zimda/Documents/ai-integration/frontend/src/components/**)",
+      "Read(//c/Users/zimda/Documents/ai-integration/frontend/src/**)",
+      "Bash(dotnet ef *)",
+      "Bash(npm install *)",
+      "Bash(npx vue-tsc *)",
+      "Bash(dotnet build *)",
+      "Bash(npx openapi-typescript *)",
+      "Bash(curl *)",
+      "Bash(python -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\(f'{len\\(data\\)} monsters seeded'\\); [print\\(f'  {m[\\\\\"name\\\\\"]} \\(CR {m[\\\\\"challengeRating\\\\\"]}\\)'\\) for m in data]\")",
+      "Bash(python -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\(f'{len\\(data\\)} spells seeded'\\)\")",
+      "Bash(python -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\(f'{len\\(data\\)} races seeded'\\)\")",
+      "Bash(python -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\(f'{len\\(data\\)} classes seeded'\\)\")",
+      "Bash(dotnet swagger tofile *)",
+      "Bash(dotnet tool *)",
+      "Bash(where swagger *)",
+      "Bash(swagger --version)",
+      "Bash(swagger tofile *)",
+      "Bash(dotnet run *)",
+      "Bash(curl -s http://localhost:5000/swagger/v1/swagger.json)",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(kill %1)",
+      "Bash(npx tsc *)",
+      "Bash(bash *)"
+    ]
+  }
+}
